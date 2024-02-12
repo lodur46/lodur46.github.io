@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 - 2024 洛德四十六. All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 12 Feb 2024 13:36:40 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 18:58:11 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Mac]如何將圖片轉檔為WebP</title>
+      <link>https://lodur46.github.io/posts/mac-webp/</link>
+      <pubDate>Mon, 12 Feb 2024 18:58:11 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/mac-webp/</guid>
+      <description>&lt;p&gt;WebP 是一種由 Google 開發的新檔案格式，，以加快網頁載入速度為目的，可以讓你的網站速度呈現速度變快，本篇文章將教導 Mac 用戶如何將圖片轉檔為 WebP。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/mac-webp/featured.webp" />
+    </item>
+    
     <item>
       <title>使用Hugo &#43; Github Pages架設部落格教學</title>
       <link>https://lodur46.github.io/posts/hugo-github-pages/</link>
