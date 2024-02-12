@@ -4,7 +4,55 @@
 
   <url>
     <loc>https://lodur46.github.io/categories/</loc>
-    <lastmod>2024-01-26T18:34:56+08:00</lastmod>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/tags/github/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/tags/hugo/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/tags/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/posts/hugo-github-pages/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/categories/%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/categories/%E7%B6%B2%E7%AB%99%E6%9E%B6%E8%A8%AD/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lodur46.github.io/tags/%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
+    <lastmod>2024-02-12T13:36:40+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -27,18 +75,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://lodur46.github.io/tags/</loc>
-    <lastmod>2024-01-26T18:34:56+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lodur46.github.io/</loc>
-    <lastmod>2024-02-11T23:10:05+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://lodur46.github.io/tags/wordpress/</loc>
     <lastmod>2024-01-26T18:34:56+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -52,12 +88,6 @@
   </url>
   <url>
     <loc>https://lodur46.github.io/categories/%E7%B6%B2%E7%AB%99%E4%B8%BB%E6%A9%9F/</loc>
-    <lastmod>2024-01-26T18:34:56+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lodur46.github.io/categories/%E7%B6%B2%E7%AB%99%E6%9E%B6%E8%A8%AD/</loc>
     <lastmod>2024-01-26T18:34:56+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -279,12 +309,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://lodur46.github.io/tags/github/</loc>
-    <lastmod>2016-04-17T18:56:33+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://lodur46.github.io/tags/hexo/</loc>
     <lastmod>2016-04-17T18:56:33+08:00</lastmod>
     <changefreq>always</changefreq>
@@ -292,18 +316,6 @@
   </url>
   <url>
     <loc>https://lodur46.github.io/posts/hexo-github/</loc>
-    <lastmod>2016-04-17T18:56:33+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lodur46.github.io/categories/%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</loc>
-    <lastmod>2016-04-17T18:56:33+08:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://lodur46.github.io/tags/%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
     <lastmod>2016-04-17T18:56:33+08:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
