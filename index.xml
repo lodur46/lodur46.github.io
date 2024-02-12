@@ -55,7 +55,7 @@
       
       <guid>https://lodur46.github.io/authors/lodur46/</guid>
       <description>&lt;p&gt;我是 Louis Chen，常用網名是「Lodur46」，台灣人，居住在台灣新北市，目前是一名部落客。致力於分享生涯發展、數位科技、投資理財等相關知識與專長，幫助在人生旅途上感到困惑的人。&lt;/p&gt;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/authors/lodur46/featured.webp" />
     </item>
     
     <item>
@@ -65,7 +65,7 @@
       
       <guid>https://lodur46.github.io/about-blog/</guid>
       <description>&lt;p&gt;本頁面主要是記載關於本站的環境配置、發展歷史與修訂紀錄。&lt;/p&gt;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/about-blog/featured.webp" />
     </item>
     
     <item>
