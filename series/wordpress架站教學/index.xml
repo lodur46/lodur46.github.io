@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress架站教學 on 洛德四十六</title>
+    <link>https://lodur46.github.io/series/wordpress%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</link>
+    <description>Recent content in WordPress架站教學 on 洛德四十六</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 - 2024 洛德四十六. All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 26 Jan 2024 18:34:56 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/series/wordpress%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudways教學：註冊與升級</title>
+      <link>https://lodur46.github.io/posts/cloudways-sign-up/</link>
+      <pubDate>Fri, 26 Jan 2024 18:34:56 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/cloudways-sign-up/</guid>
+      <description>&lt;p&gt;想自行架設網站的時候，通常會有要選擇購買哪種網站主機的困擾，這時我會推薦你一個主機代管服務商：Cloudways，既穩定又快速，用多少就付多少，隨時都可以停用，不必被綁約！這篇文章將教你如何註冊 Cloudways 並建立 Wordpress 網站。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/cloudways-sign-up/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

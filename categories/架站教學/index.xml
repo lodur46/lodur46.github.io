@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>架站教學 on 洛德四十六</title>
+    <link>https://lodur46.github.io/categories/%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/</link>
+    <description>Recent content in 架站教學 on 洛德四十六</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 - 2024 洛德四十六. All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 17 Apr 2016 18:56:33 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/categories/%E6%9E%B6%E7%AB%99%E6%95%99%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Hexo&#43;Github建立個人部落格</title>
+      <link>https://lodur46.github.io/posts/hexo-github/</link>
+      <pubDate>Sun, 17 Apr 2016 18:56:33 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/hexo-github/</guid>
+      <description>&lt;p&gt;Hexo 是一個輕量級的網誌架構，這種靜態網誌簡單又快速，可以部署到 GitHub Pages 等，寫文章可以用本地編輯器生成，例如 Sublime Text、Atom 等，文章格式則是用 Markdown 標記語言寫作。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/hexo-github/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>
