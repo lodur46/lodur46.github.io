@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on 洛德四十六</title>
+    <link>https://lodur46.github.io/categories/html/</link>
+    <description>Recent content in HTML on 洛德四十六</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 - 2024 洛德四十六. All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 21:15:21 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML學習筆記</title>
+      <link>https://lodur46.github.io/posts/html-memo/</link>
+      <pubDate>Tue, 20 Feb 2024 21:15:21 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/html-memo/</guid>
+      <description>&lt;p&gt;HTML（Hypertext Markup Language），中文是「超文本標記語言」，是一種用來組織架構與呈現網頁內容的標記語言，本篇文章是分享我學習 HTML 的筆記內容。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/html-memo/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>
