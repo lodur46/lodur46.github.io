@@ -9,13 +9,13 @@
     <copyright>© 2023 - 2024 洛德四十六. All Rights Reserved</copyright>
     <lastBuildDate>Tue, 20 Feb 2024 21:15:21 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/tags/%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HTML學習筆記</title>
-      <link>https://lodur46.github.io/posts/html-memo/</link>
+      <title>HTML學習筆記 - 基礎篇</title>
+      <link>https://lodur46.github.io/posts/html-memo-basic/</link>
       <pubDate>Tue, 20 Feb 2024 21:15:21 +0800</pubDate>
       
-      <guid>https://lodur46.github.io/posts/html-memo/</guid>
+      <guid>https://lodur46.github.io/posts/html-memo-basic/</guid>
       <description>&lt;p&gt;HTML（Hypertext Markup Language），中文是「超文本標記語言」，是一種用來組織架構與呈現網頁內容的標記語言，本篇文章是分享我學習 HTML 的筆記內容。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/html-memo/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/html-memo-basic/featured.webp" />
     </item>
     
   </channel>
