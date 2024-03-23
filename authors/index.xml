@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2014 - 2024 洛德四十六. All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 01 Oct 2023 18:34:56 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Author: Lodur46</title>
-      <link>https://lodur46.github.io/authors/lodur46/</link>
-      <pubDate>Sun, 01 Oct 2023 18:34:56 +0800</pubDate>
-      
-      <guid>https://lodur46.github.io/authors/lodur46/</guid>
-      <description>&lt;p&gt;我是 Louis Chen，常用網名是「Lodur46」，台灣人，居住在台灣新北市，目前是一名部落客。致力於分享生涯發展、數位科技、投資理財等相關知識與專長，幫助在人生旅途上感到困惑的人。&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/authors/lodur46/featured.webp" />
-    </item>
-    
+    <atom:link href="https://lodur46.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
