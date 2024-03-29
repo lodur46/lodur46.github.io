@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2014 - 2024 洛德四十六. All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 09:30:21 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2024 19:49:21 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 學習筆記 - 基礎篇</title>
+      <link>https://lodur46.github.io/posts/javascript-memo-basic/</link>
+      <pubDate>Fri, 29 Mar 2024 19:49:21 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/javascript-memo-basic/</guid>
+      <description>&lt;p&gt;JavaScript（縮寫 JS）是一種開發人員用來建立互動式網頁的程式設計語言，可以提升使用者體驗，這篇文章是我學習 CSS 的筆記內容。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/javascript-memo-basic/featured.webp" />
+    </item>
+    
     <item>
       <title>CSS學習筆記 - 基礎篇</title>
       <link>https://lodur46.github.io/posts/css-memo-basic/</link>

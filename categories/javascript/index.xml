@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on 洛德四十六</title>
+    <link>https://lodur46.github.io/categories/javascript/</link>
+    <description>Recent content in JavaScript on 洛德四十六</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2014 - 2024 洛德四十六. All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 29 Mar 2024 19:49:21 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 學習筆記 - 基礎篇</title>
+      <link>https://lodur46.github.io/posts/javascript-memo-basic/</link>
+      <pubDate>Fri, 29 Mar 2024 19:49:21 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/javascript-memo-basic/</guid>
+      <description>&lt;p&gt;JavaScript（縮寫 JS）是一種開發人員用來建立互動式網頁的程式設計語言，可以提升使用者體驗，這篇文章是我學習 CSS 的筆記內容。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/javascript-memo-basic/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>
