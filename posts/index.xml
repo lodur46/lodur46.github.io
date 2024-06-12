@@ -9,6 +9,16 @@
     <copyright>© 2014 - 2024 洛德四十六. All Rights Reserved</copyright>
     <lastBuildDate>Sun, 01 Oct 2023 18:34:56 +0800</lastBuildDate><atom:link href="https://lodur46.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Java學習筆記初階篇#1：介紹</title>
+      <link>https://lodur46.github.io/posts/java-memo-basic-1-introduction/</link>
+      <pubDate>Tue, 11 Jun 2024 21:00:00 +0800</pubDate>
+      
+      <guid>https://lodur46.github.io/posts/java-memo-basic-1-introduction/</guid>
+      <description>&lt;p&gt;Java 是一種程式設計語言，擁有跨平台、物件導向等特性，本系列文章是分享我學習 Java 的筆記內容。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://lodur46.github.io/posts/java-memo-basic-1-introduction/featured.webp" />
+    </item>
+    
+    <item>
       <title>JavaScript 學習筆記 - 基礎篇</title>
       <link>https://lodur46.github.io/posts/javascript-memo-basic/</link>
       <pubDate>Fri, 29 Mar 2024 19:49:21 +0800</pubDate>
