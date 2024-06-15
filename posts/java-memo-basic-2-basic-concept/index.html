@@ -102,7 +102,7 @@
     "keywords": ["程式設計","Java","筆記"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "514"
+    "wordCount": "520"
   }]
   </script>
 
@@ -1240,7 +1240,7 @@ if (!doNotTrack) {
     <li><a href="#1-初探-java-程式">1. 初探 Java 程式</a>
       <ul>
         <li><a href="#11-類別">1.1 類別</a></li>
-        <li><a href="#12-程式進入點program-entry">1.2 程式進入點（Program Entry）</a></li>
+        <li><a href="#12-程式進入點">1.2 程式進入點</a></li>
         <li><a href="#13-標準輸出">1.3 標準輸出</a></li>
         <li><a href="#14-註解">1.4 註解</a></li>
       </ul>
@@ -1249,7 +1249,7 @@ if (!doNotTrack) {
       <ul>
         <li><a href="#21-類別與物件">2.1 類別與物件</a></li>
         <li><a href="#22-屬性與方法">2.2 屬性與方法</a></li>
-        <li><a href="#23-建構子-constructor">2.3 建構子 Constructor</a></li>
+        <li><a href="#23-建構子">2.3 建構子</a></li>
       </ul>
     </li>
     <li><a href="#3-後記">3. 後記</a></li>
@@ -1269,7 +1269,7 @@ if (!doNotTrack) {
     <li><a href="#1-初探-java-程式">1. 初探 Java 程式</a>
       <ul>
         <li><a href="#11-類別">1.1 類別</a></li>
-        <li><a href="#12-程式進入點program-entry">1.2 程式進入點（Program Entry）</a></li>
+        <li><a href="#12-程式進入點">1.2 程式進入點</a></li>
         <li><a href="#13-標準輸出">1.3 標準輸出</a></li>
         <li><a href="#14-註解">1.4 註解</a></li>
       </ul>
@@ -1278,7 +1278,7 @@ if (!doNotTrack) {
       <ul>
         <li><a href="#21-類別與物件">2.1 類別與物件</a></li>
         <li><a href="#22-屬性與方法">2.2 屬性與方法</a></li>
-        <li><a href="#23-建構子-constructor">2.3 建構子 Constructor</a></li>
+        <li><a href="#23-建構子">2.3 建構子</a></li>
       </ul>
     </li>
     <li><a href="#3-後記">3. 後記</a></li>
@@ -1424,20 +1424,21 @@ if (!doNotTrack) {
     </span>        
     
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span><span class="w">
+<p>類別（Class）名需要與檔名一樣，必須是以大寫英文字母開頭，例如類別<code>Main</code>與檔名<code>Main.java</code>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span></code></pre></div><p>類別名需要與檔名一樣，必須是以大寫英文字母開頭，例如類別<code>Main</code>與檔名<code>Main.java</code>。</p>
-<h3 class="relative group">1.2 程式進入點（Program Entry） 
-    <div id="12-程式進入點program-entry" class="anchor"></div>
+</span></span></span></code></pre></div><h3 class="relative group">1.2 程式進入點 
+    <div id="12-程式進入點" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#12-%e7%a8%8b%e5%bc%8f%e9%80%b2%e5%85%a5%e9%bb%9eprogram-entry" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#12-%e7%a8%8b%e5%bc%8f%e9%80%b2%e5%85%a5%e9%bb%9e" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
+<p>JVM 執行程式時，會先找程式進入點（Program Entry），而且規定必須是<code>public static void main(String[] args)</code>。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
@@ -1453,7 +1454,6 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<p>JVM 執行程式時，會先找程式進入點，而且規定必須是<code>public static void main(String[] args)</code>。</p>
 <p>重點掃描：</p>
 <ul>
 <li>在 Java 的函數（Functions、Methods）中，可提供或不提供 input，然後獲得一個 output。</li>
@@ -1469,11 +1469,12 @@ if (!doNotTrack) {
     </span>        
     
 </h3>
+<p>Java 的標準輸出是透過 System.out 物件來達成。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></div><ul>
 <li>System：物件名稱。</li>
 <li>out：在 System 物件中的一個物件。</li>
-<li>println()：在 out 物件中的一個方法，作用是顯示字串並換行。</li>
+<li>println()：在 out 物件中的一個方法，println 是 print line 的縮寫，指將後方括號中的內容打印到螢幕上，並且之後會換行。，作用是顯示字串並換行。</li>
 </ul>
 <p>需注意每一行程式碼要以分號「;」作結尾。</p>
 <h3 class="relative group">1.4 註解 
@@ -1486,7 +1487,7 @@ if (!doNotTrack) {
     </span>        
     
 </h3>
-<p>註解功能是讓你在程式碼旁邊作備註，讓程式可以更方便閱讀與維護。</p>
+<p>註解（Annotation）功能是讓你在程式碼旁邊作備註，讓程式可以更方便閱讀與維護。</p>
 <p>【多行註解】</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="cm">/*
 </span></span></span><span class="line"><span class="cl"><span class="cm">    我是第一支Java程式
@@ -1517,9 +1518,9 @@ if (!doNotTrack) {
     </span>        
     
 </h3>
-<p><strong>【類別 class】</strong></p>
+<p><strong>【類別 Class】</strong></p>
 <p>類別就像是一個藍圖，可以定義物件的屬性、方法，沒有實體（Instance）的概念，屬於靜態的，例如房屋的設計藍圖。</p>
-<p><strong>【物件 object】</strong></p>
+<p><strong>【物件 Object】</strong></p>
 <p>物件就像是建造好的房屋，有其屬性、方法，有實體概念，屬於動態的，在記憶體中佔有空間。</p>
 <p>屬性與方法是什麼？</p>
 <ul>
@@ -1617,17 +1618,17 @@ if (!doNotTrack) {
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">eating</span><span class="p">...</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">sleeping</span><span class="p">...</span><span class="w">
 </span></span></span></code></pre></div><p>上面這些程式碼其實還可以再簡化，這時就需要運用到下文提到的「建構子」。</p>
-<h3 class="relative group">2.3 建構子 Constructor 
-    <div id="23-建構子-constructor" class="anchor"></div>
+<h3 class="relative group">2.3 建構子 
+    <div id="23-建構子" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#23-%e5%bb%ba%e6%a7%8b%e5%ad%90-constructor" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#23-%e5%bb%ba%e6%a7%8b%e5%ad%90" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
-<p>在上文中，我們有遇到一個名詞叫「建構子」，建構子是什麼？</p>
+<p>在上文中，我們有遇到一個名詞叫「建構子」（Constructor），建構子是什麼？</p>
 <p>我們先看一下這一行：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Human</span><span class="w"> </span><span class="n">ken</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Human</span><span class="p">();</span><span class="w">
 </span></span></span></code></pre></div><ul>
