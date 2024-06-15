@@ -102,7 +102,7 @@
     "keywords": ["程式設計","Java","筆記"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "540"
+    "wordCount": "557"
   }]
   </script>
 
@@ -1454,11 +1454,13 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<p>重點掃描：</p>
+<blockquote>
+<p>重點：</p>
 <ul>
 <li>在 Java 的函數（Functions、Methods）中，可提供或不提供 input，然後獲得一個 output。</li>
 <li>Class 規則：名稱要與文件名稱相同、名稱要以大寫英文字母開頭、要寫在<code>public static void main(String[] args)</code>裡面。</li>
 </ul>
+</blockquote>
 <h3 class="relative group">1.3 標準輸出 
     <div id="13-標準輸出" class="anchor"></div>
     
@@ -1471,13 +1473,18 @@ if (!doNotTrack) {
 </h3>
 <p>Java 的標準輸出是透過 System.out 物件來達成。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div><p>System 類別 (Class) 的 out 屬性 (Field) 中有 print() 方法 (Method) ，印出參數 (Parameter) ，不包括新行符號</p>
+</span></span></span></code></pre></div><p>System 類別 (Class) 的 out 屬性 (Field) 中有<code>print()</code>方法 (Method) ，印出參數（Parameter）。</p>
 <ul>
 <li>System：一個叫 System 的類別。</li>
 <li>out：在 System 類別中的一個屬性。</li>
-<li>println()：在 System 類別的 out 屬性中有 println() 方法，印出參數。println 是 print line 的縮寫，指將後方括號中的內容打印到螢幕上，並且之後會換行。</li>
+<li><code>println()</code>：在 System 類別的 out 屬性中有<code>println()</code>方法，印出參數。println 是 print line 的縮寫，指將後方括號中的內容打印到螢幕上，並且之後會換行。</li>
 </ul>
-<p>需注意每一行程式碼要以分號「;」作結尾。</p>
+<blockquote>
+<p>注意：</p>
+<ul>
+<li>每一行程式碼要以分號「;」作結尾。</li>
+</ul>
+</blockquote>
 <h3 class="relative group">1.4 註解 
     <div id="14-註解" class="anchor"></div>
     
@@ -1489,13 +1496,13 @@ if (!doNotTrack) {
     
 </h3>
 <p>註解（Annotation）功能是讓你在程式碼旁邊作備註，讓程式可以更方便閱讀與維護。</p>
-<p>【多行註解】</p>
+<p><strong>【多行註解】</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="cm">/*
 </span></span></span><span class="line"><span class="cl"><span class="cm">    我是第一支Java程式
 </span></span></span><span class="line"><span class="cl"><span class="cm">    我會顯示出文字：Hello World!
 </span></span></span><span class="line"><span class="cl"><span class="cm">*/</span><span class="w">
-</span></span></span></code></pre></div><p>符號<code>/* */</code>中間可輸入你想要的註解，若註解比較長，需要多行才能輸入完成，則可使用多行註解。。</p>
-<p>【單行註解】</p>
+</span></span></span></code></pre></div><p>符號<code>/* */</code>中間可輸入你想要的註解，若註解比較長，需要多行才能輸入完成，則可使用多行註解。</p>
+<p><strong>【單行註解】</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// 顯示出文字：Hello World!</span><span class="w">
 </span></span></span></code></pre></div><p>符號<code>//</code>後面可輸入你想要的註解，若註解比較短，只要單行就可輸入完成，則可使用單行註解。</p>
 <h2 class="relative group">2. 初探物件導向 
@@ -1563,7 +1570,7 @@ if (!doNotTrack) {
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Human</span><span class="w"> </span><span class="n">ken</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Human</span><span class="p">();</span><span class="w">
 </span></span></span></code></pre></div><p>宣告一個人類，叫「ken」，此時記憶體中就會有一塊空間叫「ken」。</p>
 <p>物件名稱「ken」透過關鍵字「new」，利用建構子<code>Human()</code>進行初始化，此時記憶體中就會另一塊空間存放人類藍圖（屬性、方法），再把這塊空間的記憶體地址回傳到物件名稱「ken」，這樣物件名稱與類別的屬性、方法就連接起來了。</p>
-<p>這樣我們就等於創造了一個叫 ken 的人類，具有人類藍圖中的屬性與方法，這就是「物件的實體化（instantiated）」，而實體就是在記憶體當中佔有空間的物件。</p>
+<p>這樣我們就等於創造了一個叫 ken 的人類，具有人類藍圖中的屬性與方法，這就是「物件的實體化（Instantiated）」，而實體就是在記憶體當中佔有空間的物件。</p>
 <h3 class="relative group">2.2 屬性與方法 
     <div id="22-屬性與方法" class="anchor"></div>
     
@@ -1605,7 +1612,7 @@ if (!doNotTrack) {
 </span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></div><p>在這個世界（World）裡面，我們透過類別「Human」（人類藍圖），創造一個物件叫 ken（實體化的人類）。</p>
 <p>要如何為這個人類賦予屬性與方法呢？</p>
-<p>就是透過「點」運算子（dot operator），去存取物件中的屬性與方法。</p>
+<p>就是透過「點」運算子（Dot Operator），去存取物件中的屬性與方法。</p>
 <p>存取屬性與方法：</p>
 <ul>
 <li>賦予這個人類的姓名，叫 ken：<code>ken.name = &quot;ken&quot;;</code>。</li>
@@ -1635,9 +1642,9 @@ if (!doNotTrack) {
 </span></span></span></code></pre></div><ul>
 <li>Human：類別名稱。</li>
 <li>ken：物件名稱。</li>
-<li>=：指定運算子，作用是將等號右方的值指定（assign）給等號左方。</li>
+<li>=：指定運算子，作用是將等號右方的值指定（Assign）給等號左方。</li>
 <li>new：new 關鍵字，作用是根據一個類別「新建」一個物件。</li>
-<li>Human();：建構子（Constructor）。</li>
+<li><code>Human()</code>：建構子（Constructor）。</li>
 </ul>
 <p>建構子<code>Human()</code>長什麼樣子？</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">Human</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -1648,7 +1655,7 @@ if (!doNotTrack) {
 </span></span></span></code></pre></div><ul>
 <li>與類別名稱同名。</li>
 <li>不可以有回傳值。</li>
-<li>有引數（arguments）：<code>Human([arguments])</code>。</li>
+<li>有引數（Arguments）：<code>Human([arguments])</code>。</li>
 <li>被 new 關鍵字呼叫，功能是初始化物件。</li>
 <li>建構子可以有好幾個，但引數型態的個數不可以相同。</li>
 </ul>
@@ -1751,7 +1758,21 @@ if (!doNotTrack) {
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;sleeping...&#34;</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="p">}</span><span class="w">
-</span></span></span></code></pre></div><h2 class="relative group">3. 後記 
+</span></span></span></code></pre></div><blockquote>
+<p>補充：</p>
+<ul>
+<li>參數（Parameter）：方法定義中的屬性，例如範例中的 strName、intAge。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Human</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">strName</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">intAge</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strName</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">intAge</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><ul>
+<li>引數（Argument）：呼叫方法時所傳入的數值，例如範例中的 &ldquo;ken&rdquo;、18。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Human</span><span class="w"> </span><span class="n">ken</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Human</span><span class="p">(</span><span class="s">&#34;ken&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">18</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div></blockquote>
+<h2 class="relative group">3. 後記 
     <div id="3-後記" class="anchor"></div>
     
     <span
